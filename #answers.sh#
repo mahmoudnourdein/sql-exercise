@@ -1,4 +1,4 @@
-#Basic Queries:
+Basic Queries:
 SELECT name
 FROM students;
 SELECT * from students WHERE age > 30;
@@ -13,8 +13,7 @@ set Points = (Points + 20)
 WHERE name = "Basma";
 UPDATE students SET points=(points-10) WHERE name="Alex"; 
 
-
-#creating table:
+creating table:
 CREATE TABLE "graduates" (
 "ID" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 "Name" TEXT NOT NULL UNIQUE,
